@@ -23,7 +23,6 @@ GoogleEarth Static Map API
 -- data -- train -- fore
                  -- back
                  -- PLs
-                
          -- test -- cls -- fore
                         -- back
                  -- seg -- img
