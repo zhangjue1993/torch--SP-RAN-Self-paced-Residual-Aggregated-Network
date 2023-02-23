@@ -28,8 +28,11 @@ GoogleEarth Static Map API
                  -- PLs
                 
          -- test -- cls -- fore
-                        --back
+         
+                        -- back
+                        
                  -- seg -- img
+                 
                         -- gt
      
 ```
