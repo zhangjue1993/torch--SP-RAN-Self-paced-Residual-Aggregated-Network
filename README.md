@@ -4,6 +4,7 @@ Source code for "**SP-RAN: Self-Paced Residual Aggregated Network for Solar Pane
 **", accepted in TGRS. The paper's PDF can be found in [Here](https://ieeexplore.ieee.org/document/9585690).
 
 Jue Zhang; Xiuping Jia; Jiankun Hu
+
 School of Engineering and Information Technology, University of New South Wales, Canberra
 
 ![image](https://github.com/zhangjue1993/torch--SP-RAN-Self-paced-Residual-Aggregated-Network/blob/main/Flowchart.png)
@@ -11,20 +12,26 @@ School of Engineering and Information Technology, University of New South Wales,
 ## Prerequisites
 ### environment
   - Windows 10
-  - Torch 1.8.1
-  - CUDA 10.0
-  - Python 3.7.4
-  - other environment requirment can be found in requirments.txt 
+  - Torch 1.12.0
+  - CUDA 11.6.0
+  - Python 3.7.13
+  - Opencv 3.4.2
 
-### training data
-link: https://pan.baidu.com/s/1omTCChQFWwNFhQ79AVD8rg.    code: oipw
+### data sets
+GoogleEarth Static Map API
 
-### testing datasets
-link: https://pan.baidu.com/s/1PBzDP1Hnf3RIvpARmxn2yA.    code: oipw
+-- data -- train -- fore
+                 -- back
+                 -- PLs
+                
+         -- test -- cls -- fore
+                        -- back
+                 -- seg -- img
+                        -- gt 
+                  
 
 ## Training
 ### 1st training stage
-Case1: Please refer to [this repository](https://github.com/DUTyimmy/generatePGT).
 
 Case2: We also upload ready-made pseudo labels in **Training data** (the link above), you can directly use our offered two kinds of pseudo labels for convenience. CAMs are also presented if you needed.
 
