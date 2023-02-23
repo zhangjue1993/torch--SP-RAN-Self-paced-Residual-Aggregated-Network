@@ -46,23 +46,12 @@ GradCAM
 ```
 set ```self-pace``` to ```False``` in ```act_config.json```. 
 
-Run ```python train.py --config_path act_config.json```
+Run ```python train.py --config_path act_config.json```.
 
 ### 2nd training stage
 
 #### 1, 
-
-```
-MF_code -- data -- DUTS-Train -- image -- 10553 samples
-
-                -- ECSSD (not necessary) 
-                
-                -- pseudo labels -- label0_0 -- 10553 pseudo labels
-                
-                                 -- label1_0 -- 10553 pseudo labels
-```
-#### 2, training
-```Run main.py```
+Set ```self-pace``` to ```True``` in ```act_config.json```. Set the label update dir in ```act_config.json```. Run  ```python train.py --config_path act_config.json```.
 
 Here you can set ECCSD dataset as validation set for optimal results by setting ```--val``` to ```True```, of course it is not necessary in our work.
 
