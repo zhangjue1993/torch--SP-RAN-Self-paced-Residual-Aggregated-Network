@@ -6,7 +6,7 @@ Source code for "**SP-RAN: Self-Paced Residual Aggregated Network for Solar Pane
 Jue Zhang; Xiuping Jia; Jiankun Hu
 School of Engineering and Information Technology, University of New South Wales, Canberra
 
-![image](https://github.com/zhangjue1993/torch--SP-RAN-Self-paced-Residual-Aggregated-Network/flowchart.png)
+![image](https://github.com/zhangjue1993/torch--SP-RAN-Self-paced-Residual-Aggregated-Network/Flowchart.png)
 
 ## Prerequisites
 ### environment
