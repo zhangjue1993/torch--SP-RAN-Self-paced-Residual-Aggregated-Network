@@ -48,23 +48,20 @@ set ```self-pace``` to ```False``` in ```act_config.json```.
 
 Run ```python train.py --config_path act_config.json```.
 
-### 2nd training stage
+### 3nd training stage
 
-#### 1, 
 Set ```self-pace``` to ```True``` in ```act_config.json```. Set the label update dir in ```act_config.json```. Run  ```python train.py --config_path act_config.json```.
 
-Here you can set ECCSD dataset as validation set for optimal results by setting ```--val``` to ```True```, of course it is not necessary in our work.
-
 ## Testing
-```Run test_code.py```
+```python predict.py --config_path act_config.json```
 
-You need to configure your desired testset in ```--test_root```.  Here you can also perform PAMR and CRF on saliency maps for a furthur refinements if you want, by setting ```--pamr``` and ```--crf``` to True. **Noting** that the results in our paper do not adopt these post-process for a fair comparison.
+**Noting** that the results in our paper do not adopt any post-process including CRF.
 
 The evaluation code can be found in [here](https://github.com/jiwei0921/Saliency-Evaluation-Toolbox).
 
 
 ## Contact me
-If you have any questions, pleas fell free to contact me: jue.zhang@adfa.edu.au.
+If you have any questions, pleas feel free to contact me: jue.zhang@adfa.edu.au.
 
 
 ## Citation
