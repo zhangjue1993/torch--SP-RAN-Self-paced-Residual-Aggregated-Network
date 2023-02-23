@@ -25,13 +25,16 @@ Please refer to ```act_config.json```
 
 ## Training
 ### 1st training stage
+GradCAM
+
+### 2st training stage
  Setting the training data to the proper root as follows:
 ```
 -- data -- train -- fore
 
                  -- back
                  
-                 -- PLs
+                 -- Pseudo labels
                 
          -- test -- cls -- fore
          
