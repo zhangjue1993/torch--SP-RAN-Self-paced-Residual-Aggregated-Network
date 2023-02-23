@@ -20,14 +20,15 @@ School of Engineering and Information Technology, University of New South Wales,
 ### data sets
 GoogleEarth Static Map API
 
--- data -- train -- fore
-                 -- back
-                 -- PLs
-         -- test -- cls -- fore
-                        -- back
-                 -- seg -- img
-                        -- gt 
-                  
+```
+-- data -- train -- image -- 10553 samples
+
+             -- ECSSD (not necessary) 
+                
+                -- pseudo labels -- label0_0 -- 10553 pseudo labels
+                
+                                 -- label1_0 -- 10553 pseudo labels
+```
 
 ## Training
 ### 1st training stage
