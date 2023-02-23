@@ -34,13 +34,14 @@ GoogleEarth Static Map API
                  -- seg -- img
                  
                         -- gt
-     
 ```
+
+# Parameters
+Please refer to ```act_config.json```
 
 ## Training
 ### 1st training stage
-
-Case2: We also upload ready-made pseudo labels in **Training data** (the link above), you can directly use our offered two kinds of pseudo labels for convenience. CAMs are also presented if you needed.
+set 
 
 ### 2nd training stage
 
