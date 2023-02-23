@@ -20,6 +20,12 @@ School of Engineering and Information Technology, University of New South Wales,
 ### data sets
 GoogleEarth Static Map API
 
+# Parameters
+Please refer to ```act_config.json```
+
+## Training
+### 1st training stage
+ Setting the training data to the proper root as follows:
 ```
 -- data -- train -- fore
 
@@ -35,17 +41,13 @@ GoogleEarth Static Map API
                  
                         -- gt
 ```
+set ```self-pace``` to ```False``` in ```act_config.json```. 
 
-# Parameters
-Please refer to ```act_config.json```
-
-## Training
-### 1st training stage
-set 
+Run ```python train.py --config_path act_config.json```
 
 ### 2nd training stage
 
-#### 1, setting the training data to the proper root as follows:
+#### 1, 
 
 ```
 MF_code -- data -- DUTS-Train -- image -- 10553 samples
