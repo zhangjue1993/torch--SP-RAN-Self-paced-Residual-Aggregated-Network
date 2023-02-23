@@ -57,7 +57,7 @@ Set ```self-pace``` to ```True``` in ```act_config.json```. Set the label update
 
 **Noting** that the results in our paper do not adopt any post-process including CRF.
 
-The evaluation code can be found in [here](https://github.com/jiwei0921/Saliency-Evaluation-Toolbox).
+The evaluation code can be found in [here](https://github.com/zhangjue1993/torch--SP-RAN-Self-paced-Residual-Aggregated-Network/blob/main/Evaluate.py).
 
 
 ## Contact me
