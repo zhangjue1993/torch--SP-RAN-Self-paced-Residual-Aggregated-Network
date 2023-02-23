@@ -1,0 +1,48 @@
+{
+    "DATA": {
+        "dataset": "ACT",
+        "data_dir": "E:/Jue/Project/Data/ACT_75mm",
+        "train_dir": "train/fore/",
+        "cam_dir": "train/PLs/",
+        "val_dir": "test/seg/img",
+        "test_dir": "test/seg/img",
+        "test_gt": "test/seg/gt",
+        "image_size": 256
+    },
+    "MODEL": {
+        "model_name": "RAN",
+        "checkpoint_path": "None"
+    },
+    "TRAIN": {
+        "batch_size": 8,
+        "lr": 0.001,
+        "rgb": 16,
+        "xy": 6,
+        "xy2": 6,
+        "weight": 0.7,
+        "momentum": 0.09,
+        "weight_decay": 0.0001,
+        "lr_decay": 0.9,
+        "first_epoch_num": 100,
+        "self_paced_epoch_num": 500,
+        "save_frequence": 10,
+        "GPU": 0,
+        "log_interval": 20,
+        "decay_interval": 1233,
+        "crf_w": 0.01,
+        "wce": 0.9,
+        "self_pace": "True",
+        "lamda": 0.015,
+        "lamda_decay_ep": 8,
+        "lamda_decay_rate": 0.95,
+        "label_update_dir": "E:/Jue/RSE2023/Methods/SP-RAN/torch/labels"
+    },
+    "VAL": {
+        "val_interval": 1,
+        "save_dir": "./result/act/20230215094257/test"
+    },
+    "TEST": {
+        "model_path": "./checkpoint/ACT/20230223105421/best-model_epoch-004.pth",
+        "save_dir": "./result/ACT\\20230223105421\\train"
+    }
+}
